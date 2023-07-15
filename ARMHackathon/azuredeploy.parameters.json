@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "hackathonVMName": {
+      "value": "armweb"
+    },
+    "hackathonVMAdminUserName": {
+      "value": "demouser"
+    },
+    "hackathonPublicIPDnsName": {
+      "value": "treat1412"
+    },
+    "registrationKey": {
+      "value": "JPCm99t/Nm8r/hCM9dToWb7HNuiFmuRgUCtt32u4jSg5LlfjUyBmo8iAIffdvq6paop8WKEKslC743X1RSYr7Q=="
+    },
+    "registrationUrl": {
+      "value": "https://a555c8f6-a51e-4b57-baad-f164e4706ee0.agentsvc.wus2.azure-automation.net/accounts/a555c8f6-a51e-4b57-baad-f164e4706ee0"
+    },
+    "nodeConfigurationName": {
+      "value": "CloudShopWeb.WebServer"
+    },
+    "sqlnodeConfigurationName": {
+      "value": "CloudShopSQL.SQLSERVER"
+    },
+    "rebootNodeIfNeeded": {
+      "value": true
+    },
+    "allowModuleOverwrite": {
+      "value": true
+    },
+    "configurationModeFrequencyMins": {
+      "value": 15
+    },
+    "refreshFrequencyMins": {
+      "value": 30
+    },
+    "timestamp": {
+      "value": "15/07/2023 10:01:00"
+    },
+    "hackathonSqlVMName": {
+      "value": "armsql"
+    },
+    "hackathonSqlVMAdminUserName": {
+      "value": "demouser"
+    },
+    "hackathonVMAdminPassword": {
+      "value": "demo@pass123"
+    },
+    "hackathonSqlVMAdminPassword": {
+      "value": "demo@pass123"
+    }
+  }
+}
